@@ -12,8 +12,7 @@ const MD_LIST_ITEM_REGEXP = /^\* /;
 const MD_LINK_REGEXP      = /\[(.*?)]\((.*?)\)/;
 
 gulp.task( 'default', cb => {
-    const version = formRevisionVersion();
-
+    const version  = formRevisionVersion();
     const sections = getContentSections();
 
     const content = sections.map( sectionID => {
@@ -22,7 +21,7 @@ gulp.task( 'default', cb => {
         return parseMarkdownContent( sectionContent, sectionID, version );
     } );
 
-    updateRevisionVersion( version,  () => {
+    updateRevisionVersion( version, () => {
         saveContentToFile( content, cb );
     } );
 } );
@@ -151,6 +150,7 @@ function parseLinks ( line ) {
             } else {
                 linkAnchor = urlOrAnchor;
             }
+
             return `<a href='${linkAnchor}'${props}>${linkText}</a>`;
         } );
     }
