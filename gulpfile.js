@@ -41,7 +41,7 @@ function getContentSections () {
     return content
         .split( '\n' )
         .filter( l => l.search( /^\* \[/g ) > -1 )
-        .map( l => l.replace('\r', '').split( '/wiki/' )[ 1 ].replace( ')', '' ) );
+        .map( l => l.split( '/content/' )[ 1 ].replace( /[)\r]/, '' ).replace( '.md', '' ) );
 }
 
 function readSectionContent ( section ) {
