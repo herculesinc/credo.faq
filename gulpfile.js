@@ -39,6 +39,7 @@ function getContentSections () {
     const content = fs.readFileSync( path.resolve( __dirname, './README.md' ), 'utf8' );
 
     return content
+        .replace( /\r/g, '' )
         .split( '\n' )
         .filter( l => l.search( /^\* \[/g ) > -1 )
         .map( l => l.split( '/content/' )[ 1 ].replace( /[)\r]/, '' ).replace( '.md', '' ) );
@@ -65,7 +66,7 @@ function saveContentToFile ( content, cb ) {
 }
 
 function parseMarkdownContent ( content, sectionId, version ) {
-    const [ title, ...questions ] = content.split( /\n{1,4}/ );
+    const [ title, ...questions ] = content.replace( /\r/g, '' ).split( /\n{1,4}/ );
 
     return {
         id       : sectionId,
