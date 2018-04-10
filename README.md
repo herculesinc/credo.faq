@@ -2,7 +2,7 @@
 Frequently Asked Questions for Credo platform.
 
 Sections
-* [General](https://github.com/herculesinc/credo.faq/wiki/general)
+* [General](general)
 * [Credo Accounts](https://github.com/herculesinc/credo.faq/wiki/credo-accounts)
 * [Verifications](https://github.com/herculesinc/credo.faq/wiki/verifications)
 * [User Interaction](https://github.com/herculesinc/credo.faq/wiki/user-interaction)
