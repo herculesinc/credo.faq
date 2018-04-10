@@ -11,7 +11,9 @@ const MD_SUBTITLE_REGEXP  = /^## /;
 const MD_LIST_ITEM_REGEXP = /^\* /;
 const MD_LINK_REGEXP      = /\[(.*?)]\((.*?)\)/;
 
-gulp.task( 'default', cb => {
+build();
+
+function build() {
     const version  = formRevisionVersion();
     const sections = getContentSections();
 
@@ -24,7 +26,7 @@ gulp.task( 'default', cb => {
     updateRevisionVersion( version, () => {
         saveContentToFile( content, cb );
     } );
-} );
+}
 
 function formRevisionVersion () {
     const currentVersion = require( './package.json' ).version;
