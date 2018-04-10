@@ -3,7 +3,7 @@ const fs   = require( 'fs' );
 const path = require( 'path' );
 const gulp = require( 'gulp' );
 
-const CONTENT_DIR  = 'credo.faq.wiki';
+const CONTENT_DIR  = 'content';
 const CONTENT_FILE = 'content.json';
 
 const MD_TITLE_REGEXP     = /^# /;
@@ -42,12 +42,12 @@ function getContentSections () {
     return content
         .split( '\n' )
         .filter( l => l.search( /^\* \[/g ) > -1 )
-        .map( l => l.split( '/wiki/' )[ 1 ].replace( ')', '' ) );
+        .map( l => l.replace('\r', '').split( '/wiki/' )[ 1 ].replace( ')', '' ) );
 }
 
 function readSectionContent ( section ) {
     const sectionFile = section.split( '-' ).map( upperFirst ).join( '-' ) + '.md';
-    const sectionPath = path.resolve( __dirname, `../${CONTENT_DIR}/${sectionFile}` );
+    const sectionPath = path.resolve( __dirname, `./${CONTENT_DIR}/${sectionFile}` );
 
     return fs.readFileSync( sectionPath, 'utf8' );
 }
