@@ -46,6 +46,7 @@ function getContentSections () {
 
 function readSectionContent ( section ) {
     const sectionPath = path.resolve( __dirname, `./${CONTENT_DIR}/${section}.md` );
+
     return fs.readFileSync( sectionPath, 'utf8' );
 }
 
@@ -154,10 +155,6 @@ function parseLinks ( line ) {
     }
 
     return line;
-}
-
-function upperFirst ( string ) {
-    return string.charAt( 0 ).toUpperCase() + string.slice( 1 );
 }
 
 function formQuestionId ( string ) {
