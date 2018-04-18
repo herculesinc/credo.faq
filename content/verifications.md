@@ -22,7 +22,7 @@ You can add and remove account verifications at any time. However, there are two
 Please note that verifications you remove will be encrypted and stored in the system in order to prevent creation of multiple accounts with the same verifications.
 
 ## Can I open two different accounts using the same verification?
-You cannot open multiple accounts using the same verification. For example, you cannot have two different accounts connected to the same mobile phone number. For some verifications (e.g. Facebook, LinkedIn), even if you delete them from one account, you will not be able to open a different account using them.
+No, you cannot. For example, you cannot have two different accounts connected to the same mobile phone number. For some verifications (e.g. Facebook, LinkedIn), even if you delete them from one account, you will not be able to open a different account using them.
 
 ## Can I merge accounts open through different verification methods?
 Not yet, but this functionality is coming soon.

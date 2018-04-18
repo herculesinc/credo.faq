@@ -1,14 +1,14 @@
 # User Interaction
 
 ## How can I find people on Credo?
-Finding other Credo users is easy. If your Credo account is connected to Facebook, you will be notified when your Facebook friends join Credo, and you'll be able to add them to your contacts.
-
-You can look people up using our search. Currently, there are 3 ways to find people: by their Credo ID, email address, or mobile phone number. You can look someone up by their Credo ID even if you don't have a Credo account, but you need to be logged in, to find someone by their email or phone number. In addition, you can search for people by their first and last names if they are in your contact list or if you had transactions or chatted with them in the past.
+You can look people up using our search. Currently, there are 3 ways to search for people: by their Credo ID, email address, or mobile phone number. You can look someone up by their Credo ID even if you don't have a Credo account, but you need to be logged in, to find someone by their email or phone number. In addition, you can search for people by their first and last names if they are in your contact list or if you've interacted with them on Credo in the past.
 
 If someone has connected their Twitter and/or Reddit account to Credo, you can look them up by their Twitter handle or Reddit username respectively. For Twitter, use the link https\://www.credo360.com/twitter/xxx and replace "xxx" with the person's Twitter handle. For Reddit, follow the link https\://www.credo360.com/reddit/xxx and replace "xxx" with the person's Reddit username, e.g., [irakliy81](https://www.credo360.com/reddit/irakliy81).
 
+Also, if your Credo account is connected to Facebook, we will notify you when your Facebook friends join Credo.
+
 ## Can I invite people to Credo?
-Yes! Currently, you can invite people via email or SMS. If they accept your invitation and register, you will be notified and offered to add them to your contact list. You can also post your referral link on Facebook, Twitter, LinkedIn, and you'll be notified if anyone joins using your link.
+Yes! Currently, you can invite people via email or SMS. If they accept your invitation and register, you will be notified and offered to add them to your contact list. You can also post your referral link on Facebook, Twitter, LinkedIn etc., and you'll be notified if anyone joins using your link.
 
 If 5 or more people you invite join and get their Credo Score over 200, you'll be able to claim a [custom Credo URL](https://www.credo360.com/perks#custom-credo-id).
 
@@ -35,10 +35,10 @@ Yes, you can invite additional people into ongoing conversations by sending them
 When Invite Confirmations are enabled, nobody can join a conversation or see it unless they are invited and approved to join by all conversation participants. However, when Invite Confirmations are off, any conversation participant can invite other users into the conversation without asking other participants for an approval.
 
 ## Can I leave a conversation?
-Yes, you can leave an ongoing conversation at any time. Once you leave the conversation you will not receive any messages sent into the conversation by other users.
+Yes, you can leave an ongoing conversation at any time. Once you left the conversation, you will not receive any messages sent into the conversation by other users.
 
 ## Can I rejoin a conversation I had left?
-Yes. To rejoin a conversation, you will need to be invited by one of the active participants. However, if you leave a conversation that had only 1 other active participant, the conversation will be permanently closed.
+Yes. To rejoin a conversation, you will need to be invited by one of the active participants. However, if you leave a conversation that had only 1 other participant, the conversation will be permanently closed.
 
 ## Can I remove someone from a conversation?
 No, once joined, a person cannot be removed from a conversation unless they leave voluntarily.

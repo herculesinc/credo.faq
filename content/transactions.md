@@ -24,7 +24,7 @@ We are working on adding other payment methods, and will send out updates as soo
 Currently, you can send up to $500 week and also receive up to $500 a week. In the future, your limits will depend on your Credo Score: the better the score, the higher the limits. You can always check your remaining weekly limits in your account settings.
 
 ## Can I change or cancel a transaction?
-You can change or cancel a transaction up until it is confirmed. However, once a transaction is confirmed, there is no way back.
+You can change or cancel a transaction up until the time it is confirmed. However, once a transaction is confirmed, there is no way back.
 
 You can also terminate an agreement for a future transaction at any time. In this case, both parties will still be able to rate and review each other.
 

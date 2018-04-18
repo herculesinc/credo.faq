@@ -17,7 +17,7 @@ On the website, you can also choose to stay logged in for up to 14 days. To do t
 If you believe someone's account is fake or fraudulent, please flag that account or contact us at [support@credo360.com](mailto:support@credo360.com) to report it.
 
 ## Can I close my Credo account?
-Yes, you can close it at any time. In some cases, closing an account may take up to 24 hours. And, if you have you any balance remaining in your [Credo Wallet](credo-wallet#what-is-credo-wallet), you'll need to withdraw the money before closing your account.
+Yes, you can close it at any time. In some cases, closing an account may take up to 24 hours. If you have any balance remaining in your [Credo Wallet](credo-wallet#what-is-credo-wallet), you'll need to withdraw the money before closing your account.
 
 ## What happens to my data when I close my account?
 Once you close your account, we remove all your personally identifiable information from the system. Meaning, nobody (not even us) will be able to link the information that remains in the system back to you.
@@ -30,10 +30,12 @@ Yes! To reopen your account, log in using one of the verifications you had attac
 ## What is a Credo ID?
 Credo ID is your unique identifier on Credo. Think about it as your phone number or e-mail address. You can give your Credo ID to other people so that they can look up your profile and send you messages.
 
-Currently, Credo ID is an 11-digit number but in the future we are planning to make it customizable.
+When you sign up, Credo ID is set to a random 11-digit number, but it is possible to [change](#can-i-change-my-credo-id) it.
 
 ## Can I change my Credo ID?
-You can regenerate your Credo ID once every 7 days to replace your existing ID with a new random number. If you have a mobile phone connected to your account, you can set your Credo ID to be your phone number. In the future, we are planning to make the ID fully customizable.
+You can regenerate your Credo ID once every 7 days to replace your existing ID with a new random number. If you have a mobile phone connected to your account, you can set your Credo ID to be your phone number.
+
+You can also request a custom ID to make it more personable. To request a custom Credo ID, you'll need to invite 5 of your friends to join Credo. You can read more about it [here](https://www.credo360.com/perks#custom-credo-id). In the future, we will have other ways of obtaining custom Credo IDs as well.
 
 ## What happens when I change my Credo ID?
 Your new Credo ID will not automatically link to your old ID. This means that people who are not in your Circle of Trust will not be able to find you by your old Credo ID unless you give them your new ID.
